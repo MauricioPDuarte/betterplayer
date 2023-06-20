@@ -371,7 +371,7 @@ packages:
     source: hosted
     version: "0.4.0"
   wakelock_windows:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: wakelock_windows
       sha256: "108b1b73711f1664ee462e73af34a9286ff496e27d4d8371e2fb4da8fde4cdac"
