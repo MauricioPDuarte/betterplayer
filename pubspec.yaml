@@ -18,13 +18,13 @@ dependencies:
   wakelock: ^0.6.2
   meta: ^1.9.1
   flutter_widget_from_html_core: ^0.10.1
-  visibility_detector: ^0.4.0+2
+  visibility_detector: ^0.3.3
   path_provider: ^2.0.15
-  collection: ^1.17.2
+  collection: ^1.17.1
   xml: ^6.3.0
 
 dev_dependencies:
-  lint: ^2.1.2
+  lint: ^2.0.0
   flutter_test:
     sdk: flutter
   flutter_localizations:
