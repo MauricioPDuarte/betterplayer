@@ -6,6 +6,7 @@ version: 0.0.83
 #  - Jakub Homlala <jhomlala@gmail.com>
 homepage: https://github.com/jhomlala/betterplayer
 documentation: https://jhomlala.github.io/betterplayer/
+publish_to: none
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
@@ -15,7 +16,10 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.5
-  wakelock: ^0.6.2
+  wakelock:
+    git:
+      url: https://github.com/MauricioPDuarte/wakelock.git
+      ref: main
   meta: ^1.9.1
   flutter_widget_from_html_core: ^0.10.1
   visibility_detector: ^0.4.0+2
